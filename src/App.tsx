@@ -26,6 +26,8 @@ function App() {
     The Zero Gravity Pen can be used to write in any orientation. It even works in outer space.
   </p>
 </div>
+<img className="rotate-30 ..." src="/src/assets/img.jpeg" />
+
    </div>
   );
 }
