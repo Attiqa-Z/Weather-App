@@ -3,6 +3,9 @@ import axios from "axios";
 
 interface WeatherData {
   name: string;
+  sys: {
+    country: string;
+  };
   main: {
     temp: number;
     feels_like: number;
@@ -38,7 +41,7 @@ function App() {
         <input
           value={location}
           onChange={(event) => setLocation(event.target.value)}
-          onKeyDown={searchLocation} 
+          onKeyDown={searchLocation}
           placeholder="Enter Location"
           type="text"
         />
