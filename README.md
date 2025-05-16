@@ -27,6 +27,8 @@ Welcome to **Weather App**, a clean and responsive weather forecast application 
 
 ---
 
+![Looks like](./public/WeatherWhiz.png)
+
 ## 🚀 Getting Started (Local Setup)
 
 1. Clone the repository:
